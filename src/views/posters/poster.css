@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "rhodium";
+    src: url(/fonts/RhodiumLibre-Regular.ttf) format("truetype");
+  }
+  
+  .containerposter {
+    /* background-color: aliceblue; */
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin-left: 240px;
+    margin-right: 220px;
+  }
+  
+  .cardP {
+    display: flex;  
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'rhodium';
+    font-size: x-large;
+    /* margin: 5px; */
+    width: 1000px; /* Ancho de la tarjeta, ajusta según tus necesidades */
+    height: 250px; /* Alto de la tarjeta, ajusta según tus necesidades */
+    background: linear-gradient(to bottom right,#860803,rgba(241, 13, 5, 0.78), transparent); /* Fondo degradado */
+    color: white; /* Color del texto, ajusta según tus necesidades */
+   /* border: 2px solid rgba(0, 0, 0, 0.7); */
+   padding: 38px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+  
+  }
+  
+  
+  /* .cardP {
+    display: flex;
+    font-family: "rhodium";
+    font-size: x-large;
+    margin: 5px;
+    color: #ffffff;
+    width: 1200px;
+    height: 350px;
+    border: 5px solid rgba(0, 0, 0, 0.7);
+    padding: 18px;
+    background: linear-gradient(to left, rgba(241, 13, 5, 0.78), #860803);
+  } */
+  
+  .cardP-img {
+    /* margin:auto; */
+    /* padding: px; */
+    margin-left: 75px;
+    margin-bottom: 5px;
+    /* margin-top: 0px; */
+    width: 140px;
+    height: 200px;
+  }
+  
+  .new-label {
+    border: 2px black solid;
+    position: absolute;
+    top: 8px;
+    /* left: 0; */
+    right: 170px;
+    background-color: #f99b0d; /* Color de fondo de la etiqueta */
+    color: #ffffff; /* Color del texto de la etiqueta */
+    padding: 5px 15px; /* Espaciado dentro de la etiqueta */
+    font-size: 13px; /* Tamaño de fuente de la etiqueta */
+    font-weight:bold; /* Grosor de fuente de la etiqueta */
+    border-radius: 90px 90px 90px 0px; /* Borde redondeado de la etiqueta */
+  }

@@ -1,0 +1,43 @@
+.headerNav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    background-image: url(https://res.cloudinary.com/dit2zhtwz/image/upload/v1693134665/4824751_c33d2c.jpg);
+    padding: 10px;
+    /* border-top: 9px black solid;
+    border-left:9px black solid ;
+    border-right: 9px black solid; */
+    border: 9px black solid;
+  }
+
+  .logo img {
+    width: 100px; 
+    height: auto;
+    margin-right: 950px;
+  }
+  
+  .headerNav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  .headerNav ul li {
+    margin-right: 40px;
+  }
+  
+  .headerNav ul li:last-child {
+    margin-right: 60px; 
+  }
+  
+  .headerNav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .headerNav a:hover {
+    text-decoration: underline;
+  }

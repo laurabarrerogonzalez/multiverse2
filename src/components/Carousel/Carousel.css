@@ -1,0 +1,46 @@
+#NewCarousel { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+ 
+}
+
+body {
+
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  color: #000;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 25rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(https://res.cloudinary.com/duwenv0yr/image/upload/v1692955753/Background_Banner_f7uic0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 12.5rem;
+  height: auto;
+  
+}
+
+.customSlide {
+    height: 25rem;
+  }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border: 9px black;
+}

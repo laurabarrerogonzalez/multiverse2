@@ -1,0 +1,41 @@
+/* footer {
+  
+ 
+} */
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://res.cloudinary.com/dit2zhtwz/image/upload/v1692951783/4824751_hyuuri.jpg);
+    color: white;
+    border: solid 9px black;
+    height: 115px;
+    padding: 60px;
+    /* position:relative; Establece una posición absoluta con respecto al contenedor principal. */
+    bottom: 0; /* Coloca el footer en la parte inferior del contenedor. */
+    width: 100%; /* Asegura que el footer tenga el ancho completo del contenedor. */
+    /* margin-top: 10rem; */
+    /* height: 115px;
+      padding: 60px;
+      margin-top: auto; */
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para el footer inferior */
+  .styled-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

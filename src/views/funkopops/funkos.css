@@ -1,0 +1,16 @@
+.card{
+    background: linear-gradient(to bottom, rgba(253, 79, 166, 0.7), rgba(61, 6, 226, 0.7));
+}
+
+.card-text{
+
+/* margin-top: 2px; */
+margin-bottom: -3px;
+
+/* padding-top: 1px; */
+}
+
+.card-title{
+    margin-bottom: 1px;
+    margin-top: 2px;
+}

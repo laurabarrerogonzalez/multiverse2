@@ -1,0 +1,15 @@
+.text-carousel-container {
+    /* height: 20px; */
+    border: 0px solid rgb(255, 255, 255); /* Borde negro de 2px */
+    background-color: rgb(13, 1, 180); /* Fondo negro */
+    color: rgb(255, 255, 255); /* Letras azules */
+    padding: 1px /* Espaciado interior */
+    
+  }
+  
+  .text-carousel-item {
+    font-family: 'arcade';
+    height: 10px;
+    text-align: center; /* Centrar el texto */
+    font-size: 14px; /* Tamaño de fuente */
+  }

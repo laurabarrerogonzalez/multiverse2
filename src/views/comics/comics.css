@@ -1,0 +1,23 @@
+.card1 {
+
+    color: #ffffff;
+    width: 230px;
+    height: 380px;
+    border: 7px solid rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    padding: 17px;
+    background: linear-gradient(to bottom, rgba(241, 113, 5, 0.78), #FFA500);
+    
+  }
+
+  .card1-img-center{
+    margin: 6px;
+    width: 170px;
+    height: 180px;
+  }
+
+  h5,p{
+    margin: 4px;
+  }
+
+

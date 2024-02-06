@@ -1,0 +1,73 @@
+@font-face {
+    font-family:'arcade';
+    src: url(/fonts/arcade-ka1.ttf) format('truetype');
+  }
+  
+  .background-body{
+    border-left: 9px black solid;
+    border-right: 9px black solid;
+    background-image: url(https://res.cloudinary.com/dbvqy3wft/image/upload/v1692951841/Background-Black-white_tn8o2f.jpg);
+    background-size: cover;
+    height: 105rem;
+  }
+  
+  .subtitle{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    font-family:'arcade' ;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+   
+  }
+  
+  .subtitle:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.4);
+  }
+  
+  #new{
+    margin-top: 10px;
+  }
+  
+  #sold{
+    font-family:'arcade';
+    margin-top: 70px;
+  }
+  
+  #add{
+    /* height: 200px; */
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    padding: 2px;
+    font-family: fantasy;
+  }
+  
+  .subtitle{
+    text-align: center;
+    color: blue;
+  }
+  
+  #advenger{
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 35px;
+  }
+  
+  #friki{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+  }
+  
+  .gif {
+    width: 195px; /* Tamaño deseado en píxeles */
+    height: 160px; /* Tamaño deseado en píxeles */
+    /* Ajusta el ancho y el alto según tus necesidades */
+    /* Añade otros estilos si es necesario */
+  }

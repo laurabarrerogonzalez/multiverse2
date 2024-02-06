@@ -1,0 +1,35 @@
+
+main {
+    flex-grow: 1;
+  } */
+  
+  .body {
+    cursor: url(https://www.emp.co.uk/on/demandware.static/Sites-GLB-Site/-/en_GB/v1694394546992/images/hand.cur), pointer;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  ::-webkit-scrollbar{
+  width: 7px;
+  
+  }
+  
+  ::-webkit-scrollbar-track{
+  background: black;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background:linear-gradient(to top, white, black) ;
+    border-radius: 20px;
+  }
+  
+  

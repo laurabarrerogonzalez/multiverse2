@@ -1,0 +1,34 @@
+.navbar-container {
+    background-color: yellow;
+    border: 9px black solid;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 28.5px;
+    color: black;
+  }
+  
+  .link{
+    margin: 1px;
+    
+  }
+  
+  .link:hover{
+      transition-property: background-color, transform;
+      transition-duration: 0.6s;
+      transform: scale(1.2);
+      background-color: black;
+      color: white;
+      border-radius: 15px;
+  }
+  
+  .link.active {
+      color: red; /* Cambia el color del enlace activo a rojo */
+    }
+  
+  
+  /* 
+    @media (max-width: 415px) {
+     
+      .navbar-toggler {
+      justify-content:center;
+  }
+    } */

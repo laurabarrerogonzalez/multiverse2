@@ -1,0 +1,23 @@
+.shopping {
+    margin: 5px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+  }
+  .custom-cell {
+    color: black;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .cart-container {
+    background-color: white;
+    padding: 40px;
+    height: auto;
+  }
+  
+  .content {
+    border-left: 9px black solid;
+    border-right: 9px black solid;
+  }
+  
