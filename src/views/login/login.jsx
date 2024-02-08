@@ -1,15 +1,15 @@
-import React from 'react';
-import Login from '../../components/Login/Login';
+// import React from 'react';
+// import Login from '../../components/Login/Login';
 
 
-const Loginview = () => {
+// const Loginview = () => {
 
-    return (
-        <div>
-    <Login/>
-        </div>
-      );
-    };
+//     return (
+//         <div>
+//     <Login/>
+//         </div>
+//       );
+//     };
 
 
-export default Loginview;
+// export default Loginview;

@@ -1,7 +1,10 @@
 import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import './Login.css'; // Asegúrate de tener el archivo CSS correspondiente
+import './Login.css'; 
+import { Link } from 'react-router-dom';
+
+
 const Login = () => {
     const initialValues = {
         userName: '',
@@ -16,7 +19,7 @@ const Login = () => {
         address: Yup.string().required('La dirección es obligatoria'),
     });
     const handleSubmit = (values, { resetForm }) => {
-        // Aquí puedes manejar la lógica de envío del formulario, por ejemplo, enviar los datos al servidor
+       
         console.log('Formulario enviado:', values);
         resetForm();
     };
@@ -26,7 +29,7 @@ const Login = () => {
                 <img src="https://res.cloudinary.com/ddgpmxprs/image/upload/v1693860471/ConanRegister2_ejaovf.jpg" alt="Imagen de registro" />
             </div>
             <div className="login-form">
-                <h2>User register</h2>
+                <h2>Login In</h2>
                 <Formik
                     initialValues={initialValues}
                     validationSchema={validationSchema}
@@ -34,11 +37,7 @@ const Login = () => {
                 >
                     {() => (
                         <Form>
-                            <div className="form-group">
-                                <label htmlFor="userName">UserName</label>
-                                <Field type="text" id="userName" name="userName" />
-                                <ErrorMessage name="userName" component="div" className="error" />
-                            </div>
+                            
                             <div className="form-group">
                                 <label htmlFor="email">Email</label>
                                 <Field type="email" id="email" name="email" />
@@ -49,12 +48,9 @@ const Login = () => {
                                 <Field type="password" id="password" name="password" />
                                 <ErrorMessage name="password" component="div" className="error" />
                             </div>
-                            <div className="form-group">
-                                <label htmlFor="address">Address</label>
-                                <Field type="text" id="address" name="address" />
-                                <ErrorMessage name="address" component="div" className="error" />
-                            </div>
+                            
                             <button type="submit" className="register-button">Register</button>
+<p>¿Todavía no estás registrado? Hazlo <Link to="/register">aquí</Link>.</p>
                         </Form>
                     )}
                 </Formik>
